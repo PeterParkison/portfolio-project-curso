@@ -1,0 +1,205 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+a {
+    color: black;
+    text-decoration-line: none;
+}
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+h2.redH2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(247, 92, 78, 1);
+}
+h1.blackH1 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0px;
+}
+#header {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration-line: underline;
+    color: rgba(7, 15, 24, 1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(7, 15, 24, 1);
+    margin-top: 32px;
+    
+}
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+#welcome h1 {
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+#welcome p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(87, 84, 85, 1);
+}
+#buttonWelcome {
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+
+border-radius: 50px;
+background-color: rgba(31, 124, 255, 1);
+padding: 12px 30px 12px 30px;
+}
+#photoHead img {
+    border-radius: 60px;
+    width: 100%;
+}
+#clients {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#textClient {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(7, 15, 24, 1);
+
+}
+.clientsLogo {
+    text-align: center;
+}
+#myServicesText {
+    text-align: center;
+}
+#textServices {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(87, 84, 85, 1);
+}
+#myServices {
+    margin-top: 50px;
+}
+.servicesLogo {
+    text-align: center;
+}
+.servicesLogo h2 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(7, 15, 24, 1);
+}
+.servicesLogo p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: rgba(87, 84, 85, 1);
+}
+#contact {
+    margin-top: 100px;
+}
+#contactImg img {
+    width: 100%;
+}
+#contactForm {
+    margin-left: 75px;
+    margin-top: 70px;
+}
+#contactForm p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(87, 84, 85, 1);
+}
+#emailInput {
+    background: rgba(245, 246, 251, 1);
+    border-radius: 50px;
+    border: 0;
+    width: 60%;
+    padding: 15px 25px 15px 25px;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(87, 84, 85, 1);
+}
+#buttonInput {
+    border-radius: 50px;
+    width: 30%;
+    height: 50px;
+    border: 0;
+    background: rgba(31, 124, 255, 1);
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+#portfolioTitle {
+    margin-top: 120px;
+}
+.portfolioImages {
+    padding: 30px;
+}
+.portfolioImages img {
+    width: 100%;
+}
